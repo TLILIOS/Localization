@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; configuration.title = "Switch Language"; ObjectID = "4Ra-qB-r9p"; */
+"4Ra-qB-r9p.configuration.title" = "Switch Language";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4Ra-qB-r9p"; */
+"4Ra-qB-r9p.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "SH9-Th-lAm"; */
+"SH9-Th-lAm.text" = "Hello";
