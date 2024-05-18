@@ -1,2 +1,2 @@
 "CFBundleName" = "My Language";
-
+"NSCameraUsageDescription" = "App needs to access to your camera";

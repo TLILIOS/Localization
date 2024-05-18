@@ -1,1 +1,2 @@
 "CFBundleName" = "Ma Langue";
+"NSCameraUsageDescription" = "L'application veut acceder a l'appareil Photo";

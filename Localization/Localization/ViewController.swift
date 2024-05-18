@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
 
     @IBOutlet weak var lblHello: UILabel!
     
@@ -26,6 +26,15 @@ class ViewController: UIViewController {
         let newLanguage = currentLang == "en" ? "fr" : "en"
         UserDefaults.standard.setValue([newLanguage], forKey: "AppleLanguages")
         exit(0)
+//        let picker = UIImagePickerController()
+//        picker.sourceType = .camera
+//        picker.allowsEditing = true
+//        picker.delegate = self
+//        present(picker, animated: true, completion: nil)
     }
+//    
+//    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+//        dismiss(animated: true, completion: nil)
+//    }
 }
 
